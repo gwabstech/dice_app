@@ -15,13 +15,9 @@ class _DiceRollerState extends State<DiceRoller>{
 
 
   void rollDice() {
-    //print(num.toString());
-
       setState(() {
         num = Random().nextInt(6)+1;
       });
-
-
 
   }
   @override

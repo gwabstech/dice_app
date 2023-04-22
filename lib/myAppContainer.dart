@@ -23,7 +23,9 @@ class MyAppContainer extends StatelessWidget {
           color4,
           color1,
           color2,
-        ], begin: centerAlignment, end: topLeftAlignment),
+        ], begin: centerAlignment,
+            end: topLeftAlignment
+        ),
       ),
       child: const Center(
           child: DiceRoller()
